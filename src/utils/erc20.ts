@@ -1,4 +1,4 @@
-import Web3 from 'web3'
+const Web3 = require('web3');
 import { provider } from 'web3-core'
 import { Contract } from 'web3-eth-contract'
 import { AbiItem } from 'web3-utils'
