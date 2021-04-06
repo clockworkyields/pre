@@ -42,7 +42,7 @@
     "sushi-data": "^0.0.0",
     "typescript": "^3.9.7",
     "use-wallet": "^0.8.0",
-    "web3": "1.3.3"
+    "web3": "git://github.com/ethereum/web3.js.git"
   },
   "scripts": {
     "start": "react-scripts start",
