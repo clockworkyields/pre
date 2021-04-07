@@ -50,7 +50,7 @@ const Home: React.FC = () => {
   const [leftTime, setCountTime] = useState(0)
 
   const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org"));
-  const presaleContract = new web3.eth.Contract((ERC20ABI as unknown) as AbiItem, '0xbDB2c7b6960C29A016212F76AA10F92c89b7CAE1');
+  const presaleContract = new web3.eth.Contract((ERC20ABI as unknown) as AbiItem, '0x5E8FD3a36a24B38e1F9D9A095572cCDdaf44b092');
 
   const getLeftTime = async () => {
     const leftTimeNum = await presaleContract.methods.getLeftTimeAmount().call();
