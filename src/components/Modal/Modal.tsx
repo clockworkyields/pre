@@ -49,7 +49,7 @@ background-color: rgb(255, 255, 255);
 box-shadow: rgb(47 128 237 / 5%) 0px 4px 8px 0px;
 padding: 26px 0px 47px;
 width: 50vw;
-overflow: hidden;
+overflow: scroll;
 max-width: 420px;
 max-height: 90vh;
 display: flex;

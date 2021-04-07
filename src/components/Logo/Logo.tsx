@@ -20,6 +20,9 @@ const StyledLogo = styled(Link)`
   min-width: 44px;
   padding: 0;
   text-decoration: none;
+  @media (max-width: 508px) {
+    width: 150px;
+  }
 `
 
 export default Logo
