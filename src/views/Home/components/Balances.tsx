@@ -106,7 +106,7 @@ const Balances: React.FC = () => {
               <Value
                 value={depositAmount}
               />
-              <Label text=" BNB / 2000 BNB" />
+              <Label text=" BNB / 2500 BNB" />
             </div>
             <div className={classes.root}>
               <PrettoSlider className='' key={`PrettoSlider-${depositAmount}`}
