@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import chef from '../../assets/img/icon.png'
+import chef from '../../assets/img/churro-swap.png'
 
 const Logo: React.FC = () => {
   return (
     <StyledLogo to="/">
-      <img src={chef} width="150" alt='logo' style={{ marginTop: 0 }} />
+      <img src={chef} width="200" alt='logo' style={{ marginTop: 0 }} />
     </StyledLogo>
   )
 }

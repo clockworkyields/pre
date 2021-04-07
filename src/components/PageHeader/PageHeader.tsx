@@ -45,7 +45,7 @@ const StyledMainTitle = styled.div`
   flex: 1 1 0%;
   line-height: 15px;
   text-align: center;
-  color: rgba(117,17,19,1);
+  color: rgba(149, 22, 25, 1);
   @media (max-width: 767px) {
   }
 `
@@ -84,7 +84,6 @@ const StyledSubtitle = styled.div`
 const StyledIcon = styled.div`
   text-align: center;
   position: relative;
-  left: 19px;
   margin-top: 0px;
   @media (max-width: 767px) {
     left: 0px;

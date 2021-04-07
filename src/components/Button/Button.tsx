@@ -116,7 +116,7 @@ const StyledButton = styled.button<StyledButtonProps>`
   border-radius: 20px;
   border: 1px solid #751113;
   padding: 15px;
-  background-color: #751113;
+  background-color: rgba(149, 22, 25, 1);
    &:hover {
     background-color: white;
     color: black;
