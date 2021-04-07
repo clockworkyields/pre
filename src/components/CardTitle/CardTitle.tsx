@@ -10,7 +10,7 @@ const CardTitle: React.FC<CardTitleProps> = ({ text }) => (
 )
 
 const StyledCardTitle = styled.div`
-  font-family: Optima;
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

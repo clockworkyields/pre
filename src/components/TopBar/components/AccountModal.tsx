@@ -9,7 +9,7 @@ import ModalActions from '../../ModalActions'
 import ModalContent from '../../ModalContent'
 import ModalTitle from '../../ModalTitle'
 import Spacer from '../../Spacer'
-import accountImg from '../../../assets/img/churro-swap2.png'
+import accountImg from '../../../assets/img/churroCoin.png'
 
 const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
   const { reset } = bsc.useWallet()

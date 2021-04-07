@@ -12,7 +12,7 @@ const ModalTitle: React.FC<ModalTitleProps> = ({ text }) => (
 )
 
 const StyledModalTitle = styled.div`
-  font-family: Optima;
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
