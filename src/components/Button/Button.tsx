@@ -114,9 +114,9 @@ const StyledButton = styled.button<StyledButtonProps>`
   cursor: pointer;
   color: white;
   border-radius: 20px;
-  border: 1px solid #751113;
+  border: 2.9px solid #f49715;
   padding: 15px;
-  background-color: rgba(149, 22, 25, 1);
+  background-color: #951619;
    &:hover {
     background-color: white;
     color: black;
