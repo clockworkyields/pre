@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledLink target="_blank" href="https://twitter.com/ChurroSwap">
+      <StyledLink target="_blank" href="https://twitter.com/SwapChurro">
         <i className="fab fa-twitter" style={{fontSize:'36px'}}></i>
       </StyledLink>
       <StyledLink target="_blank" href="https://churroswap.gitbook.io/churroswap/">
