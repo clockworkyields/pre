@@ -78,8 +78,8 @@ const Home: React.FC = () => {
             <div></div>
             <PageHeader
               icon={<img style={{ width: 150 }} src={mainImg} />}
-              maintitle="get it while you can"
-              title="The $CLOCK is Ticking"
+              maintitle="Get your hands on the newest liquidity locking and farm token"
+              title="$CLOCK"
               subtitle={wallet.account}
             />
           </div>
