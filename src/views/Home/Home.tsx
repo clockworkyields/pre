@@ -35,7 +35,7 @@ const Home: React.FC = () => {
   const getBnbPrice = async () => {
     let ticker = await binance.prices({ symbol: 'BNBUSDT' })
     let price = Number(ticker['BNBUSDT'])
-    setNum(price/35)
+    setNum(price/500)
   }
   getBnbPrice()
 
