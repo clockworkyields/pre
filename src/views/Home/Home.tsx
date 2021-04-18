@@ -90,7 +90,7 @@ const Home: React.FC = () => {
               </div>
               <div style={{marginTop:'36px', padding:'12px 0', display:'grid', borderBottom:'1px solid rgba(0, 0, 0, 0.3)', }}>
                 <span>Fixed Swap Ratio</span>
-                <span className='boldFont'>1 BNB = 35 CHURRO</span>
+                <span className='boldFont'>1 BNB = 500 CLOCK</span>
               </div>
               <div style={{display:'flex'}}>
                 <div className='priceState' style={{width:isDesktopOrLaptop?200:"50%"}}>
@@ -103,7 +103,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className='priceState' style={{margin:'auto 0 0 auto', width:isDesktopOrLaptop?200:"50%"}}>
                   <span>Maximum per wallet</span>
-                  <span className='boldFont'>30 BNB</span>
+                  <span className='boldFont'>2 BNB</span>
                 </div>
               </div>
               <Balances />
