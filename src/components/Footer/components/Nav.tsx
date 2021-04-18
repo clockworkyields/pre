@@ -7,10 +7,10 @@ const Nav: React.FC = () => {
       <StyledLink target="_blank" href="https://twitter.com/SwapChurro">
         <i className="fab fa-twitter" style={{fontSize:'36px'}}></i>
       </StyledLink>
-      <StyledLink target="_blank" href="https://churroswap.gitbook.io/churroswap/">
-        <i className="fas fa-info-circle" style={{fontSize:'36px'}}></i>
+      <StyledLink target="_blank" href="https://clockwork-yields.medium.com/">
+        <i className="fab fa-medium" style={{fontSize:'36px'}}></i>
       </StyledLink>
-      <StyledLink target="_blank" href="https://t.me/churroswap">
+      <StyledLink target="_blank" href="https://t.me/clockworkyields">
         <i className="fab fa-telegram-plane" style={{fontSize:'36px'}}></i>
       </StyledLink>
     </StyledNav>
