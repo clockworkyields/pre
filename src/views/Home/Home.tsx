@@ -35,7 +35,7 @@ const Home: React.FC = () => {
   const getBnbPrice = async () => {
     let ticker = await binance.prices({ symbol: 'BNBUSDT' })
     let price = Number(ticker['BNBUSDT'])
-    setNum(price/27.5)
+    setNum(price/49.5)
   }
   getBnbPrice()
 
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
   const [leftTime, setCountTime] = useState(0)
 
   const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org"));
-  const presaleContract = new web3.eth.Contract((ERC20ABI as unknown) as AbiItem, '0xbDB2c7b6960C29A016212F76AA10F92c89b7CAE1');
+  const presaleContract = new web3.eth.Contract((ERC20ABI as unknown) as AbiItem, '0x00000000000000000000000000000');
 
   const getLeftTime = async () => {
     const leftTimeNum = await presaleContract.methods.getLeftTimeAmount().call();
@@ -78,8 +78,8 @@ const Home: React.FC = () => {
             <div></div>
             <PageHeader
               icon={<img style={{ width: 150 }} src={mainImg} />}
-              maintitle="Life's Better with"
-              title="ChurroSwap!"
+              maintitle="presale phase 1 of"
+              title="Siphon Finance"
               subtitle={wallet.account}
             />
           </div>
@@ -90,7 +90,7 @@ const Home: React.FC = () => {
               </div>
               <div style={{marginTop:'36px', padding:'12px 0', display:'grid', borderBottom:'1px solid rgba(0, 0, 0, 0.3)', }}>
                 <span>Fixed Swap Ratio</span>
-                <span className='boldFont'>1 BNB = 27.5 CHURRO</span>
+                <span className='boldFont'>1 BNB = 49.5 SRT</span>
               </div>
               <div style={{display:'flex'}}>
                 <div className='priceState' style={{width:isDesktopOrLaptop?200:"50%"}}>
@@ -103,7 +103,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className='priceState' style={{margin:'auto 0 0 auto', width:isDesktopOrLaptop?200:"50%"}}>
                   <span>Maximum per wallet</span>
-                  <span className='boldFont'>30 BNB</span>
+                  <span className='boldFont'>3 BNB</span>
                 </div>
               </div>
               <Balances />
